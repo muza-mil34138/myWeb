@@ -1,0 +1,524 @@
+*
+{
+	padding: 0;
+	margin: 0;
+}
+body
+{
+	background-image: url(backgrndIMG.jpg);
+	background-size: cover;
+	background-position: center;
+	box-sizing: border-box;
+	font-family: sans-serif;
+	text-align: left;
+	image-rendering: optimizeSpeed;
+}
+
+.wrapper
+{
+	margin: 2px auto;
+	width: 1100px;
+	height: 1500px;
+}
+
+
+
+
+
+.header
+{
+	
+    width: 1100px;
+    height: 115px;
+    position: relative;
+    background: url(osa21.png) no-repeat lightskyblue;
+    margin-bottom: 1px;
+    margin-top: 2px;
+    margin-left: 1px;
+    
+}
+.user
+{
+	width: 1100px;
+	height: 20px;
+	background-color: #FFAD33;
+}
+.header-left
+{
+	font-weight: bold;
+	color: white;
+}
+.header-left span
+{
+	
+	padding: 2px;
+	margin: 15px;
+	text-decoration: none;
+	text-align: center;
+	color: blue;
+	
+}
+.header-left   a 
+{
+	text-decoration: none;
+	cursor: pointer;
+	float: center;
+	height: 30%;
+	text-align: left;
+	color: #ff;
+
+}
+.home
+{
+	background: rgb(0,50,0);
+	text-align:none;
+	height: 90px;
+}
+.home ul 
+{
+	display: inline-flex;
+	list-style: none;
+	color:#fffff;
+}
+.home ul  li 
+{
+	width: 75px;
+	margin: 15px;
+	padding: 15px;
+	height: 20px;
+	text-align: left;
+	font-weight: bold;
+	font-size: larger;
+
+}
+.home ul  li  a
+{
+	text-decoration:none ;
+	color: #fff;
+	height: 90px;
+	text-indent: 0px;
+
+}
+.active, .home ul  li:hover 
+{
+	background: #2bab0d;
+	border-radius: 10px;
+	font-size: small;
+
+}
+.home .fa
+{
+	margin-right: 2px;
+	padding: 1px;
+}
+
+
+.leftdiv
+{
+	padding : 0%;
+     float: left;
+     color: white;
+     background-color: #55ACEE;
+     width: 75%;
+      height: 583px;
+     overflow: scroll;
+     border: none;
+    text-align: justify;
+     line-height: 100%;
+     margin-right: 5px;
+     margin-left: 1px;
+}
+.leftdiv ul 
+{
+	display: table-cell;
+	list-style: none;
+	color:#fff;
+	line-height: 50%;
+}
+.leftdiv ul  li 
+{
+	width: 100%;
+	margin: 1px;
+	padding: 3px;
+	height: 20px;
+
+}
+.leftdiv ul  li  a
+{
+	text-decoration:none ;
+	color: #fff;
+	height: 100px;
+	text-align: center;
+		
+}
+.active, .lefttdiv ul  li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+	font-size: large;
+}
+.leftdiv span
+{
+	color: burlywood;
+	margin-top:2px;
+	background-color: transparent;
+	text-align: center;
+	line-height: 150%;
+	width: 100%;
+}
+
+.col-md-3 
+{
+background-color: green;
+text-align: center;
+font-weight: bolder;
+text-decoration-color: white;
+color: white;
+height: 50px;
+}
+
+
+
+
+/*.leftdiv span 
+{
+	color: burlywood;
+}*/
+.rightdiv
+{
+	padding :1%;
+	display: block;
+     float: right;
+     background-color:lightseagreen;
+     color: white;
+     width: 240px;
+     border: none;
+     height: 560px;
+     overflow: scroll;
+	margin-left: 1px;
+}
+.rightdiv span 
+{
+	color: burlywood;
+}
+
+.rightdiv ul 
+{
+	display: table-cell;
+	list-style: disc;
+	color:#fffff;
+}
+.rightdiv ul  li 
+{
+	width: 100%;
+	margin: 1px;
+	padding: 1px;
+	height: 20px;
+
+}
+.rightdiv ul  li  a
+{
+	text-decoration:none ;
+	color: #fff;
+	height: 100px;
+	text-align: center;
+		
+}
+.active, .rightdiv ul  li:hover
+{
+	background: #2bab0d;
+	border-radius: 3px;
+	font-size: large;
+}
+.bottomdiv
+{
+
+
+	background: rgb(100,50,100);
+	text-align:justify-all;
+	background-size: 40%;
+	position: inherit;
+	border-radius: 2px;
+	color: white;
+	margin-right: 0px;
+	margin-left: 0px;
+	
+	
+	
+}
+.bottomdiv span
+{
+	color: burlywood;
+	margin-top: 0px;
+	background-color: rgb(100,50,100);
+	text-align: center;
+	list-style: none;
+	width: 100%;
+	text-align: justify;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 4px;
+	margin-bottom: 4px;
+
+}
+
+.bottomdiv li a
+{
+	text-decoration:none ;
+	color: #fff;
+	height: 100px;
+	text-align: center;
+
+}
+.right-side 
+{
+	text-align: left;
+	background: rgb(100,50,100);
+	width: 100%;
+	border-radius: 2px;
+	
+}
+.right-side a
+{
+	text-decoration: ;
+	color: #fff;
+	height: 15px;
+	width: 30px;
+	text-align: left;
+	
+}
+.right-side  .fa
+{
+	
+	text-decoration: none;
+	
+	
+}
+
+.fa {
+	
+  padding: 20px;
+  font-size: 30px;
+  width: 35px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: none;
+  position: right;
+
+}
+
+.fa:hover {
+  opacity: 0.2;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+ 
+
+}
+
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+
+}
+.fa-whatsapp {
+  background: #65CC;
+  color: white;
+}
+.fa-instagram {
+  background: #459856;
+  color: white;
+}
+.fa-youtube {
+  background: darkred;
+  color: white;
+}
+.fa-telegram {
+  background: sandybrown;
+  color: white;
+}
+.fa-amazon {
+  background: skyblue;
+  color: white;
+}
+.fa-flipkart {
+  background: brown;
+  color: white;
+}
+.fa-myntra {
+  background: lightpink;
+  color: white;
+}
+.fa-meesho {
+  background: blueviolet;
+  color: white;
+}
+.fa-jio {
+  background: seagreen;
+  color: white;
+}
+.fa-airtel {
+  background: orangered;
+  color: white;
+}
+.fa-google-pay {
+  background: rebeccapurple;
+  color: white;
+}
+.fa-paytm {
+  background: skyblue;
+  color: white;
+}
+.fa-mpay{
+  background: seagreen;
+  color: white;
+}
+
+
+
+
+
+
+
+.fa-pulwama {
+  background: indigo;
+  color: white;
+}
+.fa-wpulwama {
+  background: indigo;
+  color: white;
+}
+.fa-shopian {
+  background: indigo;
+  color: white;
+}
+.fa-anantnag {
+  background: indigo;
+  color: white;
+}
+.fa-kulgam {
+  background: indigo;
+  color: white;
+}
+.fa-baramulla {
+  background: indigo;
+  color: white;
+}
+.fa-budgam {
+  background: indigo;
+  color: white;
+}
+.fa-srinagar {
+  background: indigo;
+  color: white;
+}
+.fa-ganderbal {
+  background: indigo;
+  color: white;
+}
+.fa-gulamshah{
+  background: indigo;
+  color: white;
+}
+.fa-nit{
+  background: indigo;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+.signup-box
+ {
+  width: 360px;
+  height: 620px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login-box
+ {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1
+ {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 
+{
+  text-align: center;
+}
+
+form
+ {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label
+ {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input 
+{
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+input[type="button"]
+ {
+  width: 320px;
+  height: 35px;
+  margin-top: 20px;
+  border: none;
+  background-color: #49c1a2;
+  color: white;
+  font-size: 18px;
+}
+p 
+{
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.para-2 
+{
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.para-2 a 
+{
+  color: #49c1a2;
+}
+
+
+
+
+
+
